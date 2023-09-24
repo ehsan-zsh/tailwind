@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'sharif';
+  src:  url('fonts/sharif.eot?2rszby');
+  src:  url('fonts/sharif.eot?2rszby#iefix') format('embedded-opentype'),
+    url('fonts/sharif.ttf?2rszby') format('truetype'),
+    url('fonts/sharif.woff?2rszby') format('woff'),
+    url('fonts/sharif.svg?2rszby#sharif') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sharif-"], [class*=" sharif-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sharif' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sharif-twitter:before {
+  font-size:25px;
+  content: "\e916";
+}
+.sharif-social:before {
+  font-size:25px;
+  content: "\e916";
+}
+.sharif-mail-envelope-open:before {
+  font-size:25px;
+  content: "\e900";
+}
+.sharif-twitter1:before {
+  font-size:25px;
+  content: "\e917";
+}
+.sharif-add_shopping_cart:before {
+  font-size:25px;
+  content: "\e901";
+}
+.sharif-graduation-cap:before {
+  font-size:25px;
+  content: "\e918";
+}
+.sharif-mortar-board:before {
+  font-size:25px;
+  content: "\e918";
+}
+.sharif-mail:before {
+  font-size:25px;
+  content: "\e902";
+}
+.sharif-phone:before {
+  font-size:25px;
+  content: "\e903";
+}
+.sharif-picture:before {
+  font-size:25px;
+  content: "\e904";
+}
+.sharif-play-circle:before {
+  font-size:25px;
+  content: "\e905";
+}
+.sharif-right-circle:before {
+  font-size:25px;
+  content: "\e906";
+}
+.sharif-search:before {
+  font-size:25px;
+  content: "\e907";
+}
+.sharif-shop:before {
+  font-size:25px;
+  content: "\e908";
+}
+.sharif-shopping:before {
+  font-size:25px;
+  content: "\e909";
+}
+.sharif-shopping-cart:before {
+  font-size:25px;
+  content: "\e90a";
+}
+.sharif-sync:before {
+  font-size:25px;
+  content: "\e90b";
+}
+.sharif-team:before {
+  font-size:25px;
+  content: "\e90c";
+}
+.sharif-twitter2:before {
+  font-size:25px;
+  content: "\e919";
+}
+.sharif-user:before {
+  font-size:25px;
+  content: "\e90d";
+}
+.sharif-user-add:before {
+  font-size:25px;
+  content: "\e90e";
+}
+.sharif-whats-app:before {
+  font-size:25px;
+  content: "\e90f";
+}
+.sharif-youtube:before {
+  font-size:25px;
+  content: "\e910";
+}
+.sharif-comment:before {
+  font-size:25px;
+  content: "\e91a";
+}
+.sharif-desktop:before {
+  font-size:25px;
+  content: "\e91b";
+}
+.sharif-dollar-circle:before {
+  font-size:25px;
+  content: "\e911";
+}
+.sharif-environment:before {
+  font-size:25px;
+  content: "\e912";
+}
+.sharif-heart:before {
+  font-size:25px;
+  content: "\e913";
+}
+.sharif-instagram:before {
+  font-size:25px;
+  content: "\e914";
+}
+.sharif-laptop:before {
+  font-size:25px;
+  content: "\e91c";
+}
+.sharif-left-circle:before {
+  font-size:25px;
+  content: "\e91d";
+}
+.sharif-like:before {
+  font-size:25px;
+  content: "\e91e";
+}
+.sharif-linkedin:before {
+  font-size:25px;
+  content: "\e91f";
+}
+.sharif-headphones:before {
+  font-size:25px;
+  content: "\e915";
+}
+.sharif-book:before {
+  font-size:25px;
+  content: "\e920";
+}
+.sharif-price-tag:before {
+  font-size:25px;
+  content: "\e935";
+}
+.sharif-credit-card:before {
+  font-size:25px;
+  content: "\e93f";
+}
+.sharif-compass:before {
+  font-size:25px;
+  content: "\e949";
+}
+.sharif-calendar:before {
+  font-size:25px;
+  content: "\e953";
+}
+.sharif-display:before {
+  font-size:25px;
+  content: "\e956";
+}
+.sharif-mobile:before {
+  font-size:25px;
+  content: "\e958";
+}
+.sharif-bubble2:before {
+  font-size:25px;
+  content: "\e96e";
+}
+.sharif-truck:before {
+  font-size:25px;
+  content: "\e9b0";
+}
+.sharif-point-up:before {
+  font-size:25px;
+  content: "\ea03";
+}
+.sharif-embed2:before {
+  font-size:25px;
+  content: "\ea80";
+}
+.sharif-whatsapp:before {
+  font-size:25px;
+  content: "\ea93";
+}
+.sharif-telegram:before {
+  font-size:25px;
+  content: "\ea95";
+}
+.sharif-wordpress:before {
+  font-size:25px;
+  content: "\eab4";
+}
