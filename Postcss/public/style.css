@@ -1,3 +1,7 @@
+.header-main__button button{
+    transition:all linear 0.3s;
+}
+
 .header-main__navbar--select ul{
     display:none;
 }
@@ -7,6 +11,15 @@
     transition: all linear 0.3s;
     display:flex;
     width: 250px;
+}
+
+@media screen and (max-width:992px){
+    .header-main div nav {
+        position: absolute;
+        background: rgb(229 231 235);
+        top: 20%;
+        padding:15px;
+    }
 }
 
 .header-main__navbar--select:hover ul li{
