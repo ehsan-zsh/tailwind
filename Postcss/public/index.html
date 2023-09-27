@@ -9,16 +9,14 @@
     <link rel="stylesheet" href="build/tailwind.css" />
     <link rel="stylesheet" href="font-icon/style.css" />
     <link rel="icon" type="image/png" href="photos/logo/logo.png" />
-    <link
-      rel="stylesheet"
-      href="font-awesome/fontawesome-free-6.4.2-web/css/all.css"
-    />
+    <link rel="stylesheet" href="font-awesome/fontawesome-free-6.4.2-web/css/all.css"/>
     <link rel="stylesheet" href="vazir-fonts/fonts/fonts.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <!--title-web-->
     <title>Ehsan-web</title>
   </head>
-  <body class="bg-slate-700">
+  <body>
     <header class="header position-relative">
       <div class="bg-gradient-to-r w-100 p-3 from-black-300 to-black-700">
         <div class="">
@@ -52,65 +50,67 @@
       </figure>
     </header>
     <section class="header-main my-5 flex justify-center">
-      <div class="container">
-        <div class="flex w-100 flex-row items-center justify-between">
-          <span
-            id="menu-button"
-            class="header-main__button lg:hidden bg-gray-200 rounded-lg flex items-center justify-center"
-          >
-            <button class="fa-solid fa-bars text-2xl"></button>
-          </span>
-          <nav
-            id="menu-list"
-            class="hidden top-[50%] col-span-8 w-100 lg:block header-main__navbar md:mr-56"
-          >
-            <ul class="flex flex-col md:flex-row gap-6 lg:gap-0">
-              <a href="#" class="lg:px-4 lg:py-5">
-                <li>آموزش وردپرس</li>
-              </a>
-              <a href="#" class="lg:px-4 lg:py-5">
-                <li class="header-main__navbar--select relative">
-                  <span>دوره های آموزشی </span>
-                  <span class="fa-solid fa-caret-down"></span>
-                  <ul
-                    class="p-2 absolute px-3 bg-gray-200 rounded-lg flex flex-col gap-6 justify-start"
-                  >
-                    <li>آموزش HTML CSS</li>
-                    <li>آموزش طراحی قالب وردپرس</li>
-                    <li>آموزش PHP پروژه محور</li>
-                  </ul>
-                </li>
-              </a>
-              <a href="#" class="lg:px-4 lg:py-5">
-                <li>آموزش HTML CSS</li>
-              </a>
-              <a href="#" class="lg:px-4 lg:py-5">
-                <li>نقشه راه طراحی سایت</li>
-              </a>
-            </ul>
-          </nav>
-          <div class="flex w-100 flex-row items-center gap-3 text-end">
-            <button href="#">
-              <span
-                class="p-2 bg-gray-200 rounded-lg flex items-center justify-center"
-              >
-                <span class="sharif-search"></span>
-              </span>
-            </button>
-            <button href="#">
-              <span
-                class="p-2 bg-gray-200 rounded-lg flex items-center justify-center"
-              >
-                <span class="sharif-shopping"></span>
-              </span>
-            </button>
-            <button
-              class="p-2 px-4 gap-2 gap-md-3 bg-gradient-to-tr flex flex-row from-green-light to-green rounded-lg text-white"
-              type="button"
+      <div class="flex w-full justify-center">
+        <div class="container px-5">
+          <div class="flex w-100 flex-row items-center justify-between">
+            <span
+              id="menu-button"
+              class="header-main__button lg:hidden bg-gray-200 rounded-lg flex items-center justify-center"
             >
-              <span class="sharif-user"></span>
-              <span>ورود و ثبت نام</span>
-            </button>
+              <button class="fa-solid fa-bars text-2xl"></button>
+            </span>
+            <nav
+              id="menu-list"
+              class="hidden top-[50%] z-10 col-span-8 w-100 lg:block header-main__navbar md:mr-56"
+            >
+              <ul class="flex flex-col md:flex-row gap-6 justify-center lg:gap-0 px-4">
+                <a href="#" class="lg:px-4 lg:py-5">
+                  <li>آموزش وردپرس</li>
+                </a>
+                <a href="#" class="lg:px-4 lg:py-5">
+                  <li class="header-main__navbar--select relative">
+                    <span>دوره های آموزشی </span>
+                    <span class="fa-solid fa-caret-down"></span>
+                    <ul
+                      class="p-2 absolute px-3 bg-gray-200 rounded-lg flex flex-col gap-6 justify-start"
+                    >
+                      <li class="pt-2">آموزش HTML CSS</li>
+                      <li>آموزش طراحی قالب وردپرس</li>
+                      <li class="pb-2">آموزش PHP پروژه محور</li>
+                    </ul>
+                  </li>
+                </a>
+                <a href="#" class="lg:px-4 lg:py-5">
+                  <li>آموزش HTML CSS</li>
+                </a>
+                <a href="#" class="lg:px-4 lg:py-5">
+                  <li>نقشه راه طراحی سایت</li>
+                </a>
+              </ul>
+            </nav>
+            <div class="flex w-100 flex-row items-center gap-3 text-end">
+              <button href="#">
+                <span
+                  class="p-2 bg-gray-200 rounded-lg flex items-center justify-center"
+                >
+                  <span class="sharif-search"></span>
+                </span>
+              </button>
+              <button href="#">
+                <span
+                  class="p-2 bg-gray-200 rounded-lg flex items-center justify-center"
+                >
+                  <span class="sharif-shopping"></span>
+                </span>
+              </button>
+              <button
+                class="p-2 px-4 gap-2 gap-md-3 bg-gradient-to-tr flex flex-row from-green-light to-green-web rounded-lg text-white"
+                type="button"
+              >
+                <span class="sharif-user"></span>
+                <span class="hidden md:block">ورود و ثبت نام</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -118,21 +118,536 @@
     <section class="slide-show mt-11">
         <div class="flex justify-center">
             <div class="container">
-                <div class="flex flex-row  w-full justify-items-center">
-                    <div class="grid grid-cols-7">
-                        <figure>
-                            <img class="rounded w-full" src="photos/all-photo/how-to-get-website-design-project.png" alt="">
-                        </figure>
+                <div class="flex flex-col lg:flex-row w-full items-center justify-center gap-3">
+                  <div class="w-full lg:w-[60%]">
+                    <figure class="relative">
+                      <a href="#"><img src="photos/all-photo/how-to-get-website-design-project.png" class="w-full opacity-90 rounded-lg" alt="img-post-slide">
+                        <span class="hidden lg:block sharif-play-circle-postlarge absolute top-[40%] right-[50%] text-white">
+                        </a>
+                      </figure>
                     </div>
-                    <div class="grid grid-cols-5">
-                        <figure>
-                            <img src="photos/all-photo/income-webdesign-434x244.png" alt="">
-                        </figure>
-                    </div>
+                    <div class="w-full lg:w-[30%] flex flex-row pt-6 lg:pt-0 lg:flex-col gap-2 lg:gap-5 items-center">
+                    <figure class="relative">
+                     <a href="#"><img src="photos/all-photo/income-webdesign-434x244.png" class="w-full opacity-90 rounded-lg" alt="img-post-slide">
+                     <span class="hidden lg:block sharif-play-circle-post absolute top-[40%] right-[40%] text-white"></span>
+                    </a>               
+                    </figure>
+                    <figure class="relative">
+                      <a href="#"><img src="photos/all-photo/income-webdesign-434x244.png" class="w-full opacity-90 rounded-lg" alt="img-post-slide">
+                          <span class="hidden lg:block sharif-play-circle-post absolute top-[40%] right-[40%] text-white"></span>
+                      </a>
+                    </figure>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="article-section mt-12 md:mt-36">
+      <div class="flex w-full justify-center">
+        <div class="container">
+          <div class="w-full text-center">
+            <h1 class="text-xl font-bold">با <span class="text-green-700 font-black">وب یار </span> چی میخای یاد بگیری؟</h1>
+          </div>
+          <div class="article-section__box flex flex-col lg:flex-row items-center justify-center gap-3">
+            <div class="flex flex-col w-full lg:w-[40%]">
+              <div class="article-section__box--right-first border shadowm-sm transition hover:shadow-sm duration-700 ease-out md:ease-in border-gray-300 mt-4 md:mt-10 rounded-lg lg:rounded-full flex flex-row p-4 items-center mx-5 md:mx-0">
+                <div class="article-section__box--right__badge-first hidden col-span-2 bg-gray-300 rounded-full p-2 md:flex items-center justify-center">
+                  <span class="fa-brands fa-wordpress text-white text-2xl"></span>
+                </div>
+                <div class="col-span-10 pr-4 transition-all duration-700">
+                  <h2 class="text-lg font-bold pb-1">وردپرس از پایه</h2>
+                  <p>اگر هیچ شناختی از وردپرس ندارید از اینجا شروع کنید و بیش از ۲۰ جلسه آموزش وردپرس رایگان لذت ببرید و پیشرفت خود را ببینید!</p>
+                </div>
+              </div>
+              <div class="article-section__box--right-second border shadowm-sm transition hover:shadow-sm duration-700 ease-out md:ease-in border-gray-300 mt-4 md:mt-10 rounded-lg lg:rounded-full flex flex-row p-4 items-center mx-5 md:mx-0">
+                <div class="article-section__box--right__badge-second hidden col-span-2 bg-gray-300 rounded-full p-2 md:flex items-center justify-center">
+                  <span class="sharif-desktop text-white text-xl"></span>
+                </div>
+                <div class="col-span-10 pr-4 transition-all duration-700">
+                  <h2 class="text-lg font-bold pb-1"> برنامه نویسی وردپرس </h2>
+                  <p> اگر میخوای یادبگیری خودت یه قالب کامل مثل استادیار و وودمارت و... از صفر طراحی کنی؟ و به فروش برسونی! ( دوره تخصصی طراحی قالب وردپرس ) </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-full lg:w-[40%]">
+              <div class="article-section__box--right-third border shadowm-sm transition hover:shadow-sm duration-700 ease-out md:ease-in border-gray-300 mt-4 md:mt-10 rounded-lg lg:rounded-full flex flex-row p-4 items-center mx-5 md:mx-0">
+                <div class="article-section__box--right__badge-third hidden col-span-2 bg-gray-300 rounded-full p-2 md:flex items-center justify-center">
+                  <span class="fa-solid fa-diagram-project text-white text-xl"></span>
+                </div>
+                <div class="col-span-10 pr-4 transition-all duration-700">
+                  <h2 class="text-lg font-bold pb-1"> طراحی سایت بدون کد نویسی </h2>
+                  <p> صفر تا صد طراحی سایت بدون کدنویسی را به صورت پروژه محور در قالب طراحی سایت فروشگاهی دیجی کالا به شما آموزش می دهیم. </p>
+                </div>
+              </div>
+              <div class="article-section__box--right-fourth border shadowm-sm  transition hover:shadow-sm duration-700 ease-out md:ease-in border-gray-300 mt-4 md:mt-10 rounded-lg lg:rounded-full flex flex-row p-4 items-center mx-5 md:mx-0">
+                <div class="article-section__box--right__badge-fourth hidden col-span-2 bg-gray-300 rounded-full p-2 md:flex items-center justify-center">
+                  <span class="fa-solid fa-code text-white text-xl"></span>
+                </div>
+                <div class="col-span-10 pr-4 transition-all duration-700">
+                  <h2 class="text-lg font-bold pb-1"> آموزش HTML CSS  </h2>
+                  <p> اولین قدم برای ورود به دنیای برنامه نویسی و طراحی سایت یادگیری HTML , CSS است. در وبسافت ۳ رایگان و جامع یادبگیرید و به جلو قدم بردارید. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="famous-period my-14 md:my-40">
+      <div class="famous-period__bg-image flex w-full justify-center relative">
+        <div class="container p-4">
+          <div class="flex flex-col gap-5 md:flex-row justify-between items-center 2xl:mt-5">
+            <div class="flex flex-row items-center gap-4">
+              <span class="bg-blue-icon rounded-full flex justify-center items-center">
+                <span class="sharif-mortar-board text-white py-3 px-2"></span>
+              </span>
+              <div class="flex flex-col gap-2">
+                <h1 class="text-xl text-white"> دوره های <span class="text-lime-600 font-black"> پرطرفدار </span></h1>
+                <span class="bg-green-web p-2 text-white rounded-tl-lg rounded-bl-lg rounded-br-lg"> دانشجویان انتخاب کردند </span>
+              </div>
+            </div>
+            <button class="border transition-all duration-600 hover:bg-white hover:text-black border-white rounded-full px-4 py-2 text-white hover:shadow-xl"><a href="#"> دوره های بیشتر...</a></button>
+          </div>
+        </div>
+        <div class="mt-9 w-full absolute top-32">
+          <div class="flex flex-row">
+            <div class="swiper mySwiper mx-4">
+              <div class="swiper-wrapper famous-period__slideshow flex flex-row md:justify-center pt-5 md:pt-0">
+                <div class="swiper-slide swiper-slide__mobile">
+                  <div class="">
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-2 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزشی سئو عملی جدید  </h2>
+                          <div class="flex justify-around items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="flex flex-row gap-6">
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزشی سئو عملی جدید  </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.webp" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزش رپورتاژ آگهی + تکنیک های فوق العاده 2023 </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/reportage-training-course-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزش افزایش امنیت وردپرس ✔️ تضمینی (جدید 2023) </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="flex flex-row gap-6">
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزشی سئو عملی جدید  </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.webp" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزش رپورتاژ آگهی + تکنیک های فوق العاده 2023 </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/reportage-training-course-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزش افزایش امنیت وردپرس ✔️ تضمینی (جدید 2023) </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="flex flex-row gap-6">
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزشی سئو عملی جدید  </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزشی سئو عملی جدید  </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#" class="famous-period__box mx-10 rounded-2xl md:mx-0 !transition-all hover:translate-y-2">
+                      <div class="flex justify-center">
+                        <div class="!bg-white shadow-xl p-4 rounded-xl">
+                          <img class="rounded-xl w-full" src="photos/all-photo/product-image/Learning-to-design-a-store-website-with-WordPress-img-400x229.jpg" alt="">
+                          <h2 class="pt-7 pb-10 font-bold"> دوره آموزشی سئو عملی جدید  </h2>
+                          <div class="flex justify-between items-center">
+                            <div class="flex flex-row gap-2">
+                              <span class="sharif-mortar-board"></span>
+                              <span> 254 نفر </span>
+                            </div>
+                            <span> 680،000 تومان  </span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="articles mt-80">
+      <div class="container">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="flex flex-col gap-5 md:flex-row justify-between items-center 2xl:mt-5">
+            <div class="flex flex-row items-center gap-4">
+              <span class="bg-blue-icon rounded-full flex justify-center items-center">
+                <span class="sharif-book text-white py-3 px-2"></span>
+              </span>
+              <div class="flex flex-col gap-2">
+                <h1 class="text-xl text-black font-bold"> مطالب آموزشی  <span class="text-lime-600 font-black"> جدید </span></h1>
+                <span class="bg-green-web p-2 text-white rounded-tl-lg rounded-bl-lg rounded-br-lg">  در وب یار اطلاعات خود را بروز کنید </span>
+              </div>
+            </div>
+          </div>
+          <button class="border mt-5 transition-all duration-600 bg-white shadow-sm text-green-web rounded-full px-4 py-2 hover:shadow-xl"><a href="#"> مطالب بیشتر ...</a></button>  
+        </div>
+        <div class="flex flex-row mt-4 md:mt-12">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper flex gap-5 flex-row md:justify-center pt-5 md:pt-0">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="p-2 bg-white rounded-xl shadow-sm border">
+                      <figure>
+                        <img class="rounded-xl w-full" src="photos/all-photo/image-article/tag-body-html-313x181.jpg" alt="">
+                      </figure>
+                      <div class="flex flex-row justify-between pb-2 border-b-2 border-dashed border-gray-300 mt-5">
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300" class="">بدون دیدگاه</span>
+                          <span class="sharif-comment-small text-sm text-gray-300"></span>
+                        </div>
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">فروردین 15 1402</span>
+                          <span class="sharif-calendar-small text-gray-300 text-sm"></span>
+                        </div>
+                      </div>
+                      <div class="pt-2 pb-5">
+                        <h2>تگ label در html + همراه ویدیو آموزشی</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="p-2 bg-white rounded-xl shadow-sm border">
+                      <figure>
+                        <img class="rounded-xl w-full" src="photos/all-photo/image-article/tag-label-in-html-313x181.jpg" alt="">
+                      </figure>
+                      <div class="flex flex-row justify-between mt-5 pb-2 border-b-2 border-dashed border-gray-300">
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">بدون دیدگاه</span>
+                          <span class="sharif-comment-small text-sm text-gray-300"></span>
+                        </div>
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">فروردین 15 1402</span>
+                          <span class="sharif-calendar-small text-gray-300 text-sm"></span>
+                        </div>
+                      </div>
+                      <div class="pt-2 pb-5">
+                        <h2>تگ label در html + همراه ویدیو آموزشی</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="p-2 bg-white rounded-xl shadow-sm border">
+                      <figure>
+                        <img class="rounded-xl w-full" src="photos/all-photo/image-article/tag-p-in-html-313x181.jpg" alt="">
+                      </figure>
+                      <div class="flex flex-row justify-between mt-5 pb-2 border-b-2 border-dashed border-gray-300">
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">بدون دیدگاه</span>
+                          <span class="sharif-comment-small text-sm text-gray-300"></span>
+                        </div>
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">فروردین 15 1402</span>
+                          <span class="sharif-calendar-small text-gray-300 text-sm"></span>
+                        </div>
+                      </div>
+                      <div class="pt-2 pb-5">
+                        <h2>تگ label در html + همراه ویدیو آموزشی</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="p-2 bg-white rounded-xl shadow-sm border">
+                      <figure>
+                        <img class="rounded-xl w-full" src="photos/all-photo/image-article/tag-textarea-in-html-313x181.jpg" alt="">
+                      </figure>
+                      <div class="flex flex-row justify-between mt-5 pb-2 border-b-2 border-dashed border-gray-300">
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">بدون دیدگاه</span>
+                          <span class="sharif-comment-small text-sm text-gray-300"></span>
+                        </div>
+                        <div class="flex flex-row gap-2 items-center">
+                          <span class="text-gray-300">فروردین 15 1402</span>
+                          <span class="sharif-calendar-small text-gray-300 text-sm"></span>
+                        </div>
+                      </div>
+                      <div class="pt-2 pb-5">
+                        <h2>تگ label در html + همراه ویدیو آموزشی</h2>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+    <section class="my-10 md:my-36 update-content">
+      <div>
+        <div class="flex flex-row w-full justify-center">
+          <div class="flex flex-col sm:flex-row w-full gap-2">
+            <div class="md:w-[30%]">
+              <figure>
+                <img src="photos/all-photo/update-content.png" alt="main-img">
+              </figure>
+            </div>
+            <div class="md:container md:mx-4">
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <a href="#" class="hover:shadow-lg">
+                  <div class="flex flex-col md:flex-row p-2 border shadow-sm rounded-lg gap-5">
+                    <figure>
+                      <img class="rounded-xl w-full" src="photos/all-photo/update-content/Earn-money-from-selling-WordPress-themes-180x103.jpg" alt="img-content">
+                    </figure>
+                    <div class="flex flex-col items-center gap-2">
+                        <h2 class="h-full"> زبان برنامه نویسی ورپرس چیست؟ + نقشه راه </h2>
+                        <div class="flex items-center h-full gap-2">
+                          <span class="sharif-calendar-small text-gray-300"></span>
+                          <span class="text-gray-300"> آخرین به روزرسانی: شهریور 23،1402 </span>
+                        </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="hover:shadow-lg">
+                  <div class="flex flex-col md:flex-row p-2 border shadow-sm rounded-lg gap-5">
+                    <figure>
+                      <img class="rounded-xl w-full" src="photos/all-photo/update-content/Earn-money-from-selling-WordPress-themes-180x103.jpg" alt="img-content">
+                    </figure>
+                    <div class="flex flex-col items-center gap-2">
+                        <h2 class="h-full"> زبان برنامه نویسی ورپرس چیست؟ + نقشه راه </h2>
+                        <div class="flex items-center h-full gap-2">
+                          <span class="sharif-calendar-small text-gray-300"></span>
+                          <span class="text-gray-300"> آخرین به روزرسانی: شهریور 23،1402 </span>
+                        </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="hover:shadow-lg">
+                  <div class="flex flex-col md:flex-row p-2 border shadow-sm rounded-lg gap-5">
+                    <figure>
+                      <img class="rounded-xl w-full" src="photos/all-photo/update-content/Earn-money-from-selling-WordPress-themes-180x103.jpg" alt="img-content">
+                    </figure>
+                    <div class="flex flex-col items-center gap-2">
+                        <h2 class="h-full"> زبان برنامه نویسی ورپرس چیست؟ + نقشه راه </h2>
+                        <div class="flex items-center h-full gap-2">
+                          <span class="sharif-calendar-small text-gray-300"></span>
+                          <span class="text-gray-300"> آخرین به روزرسانی: شهریور 23،1402 </span>
+                        </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" class="hover:shadow-lg">
+                  <div class="flex flex-col md:flex-row p-2 border shadow-sm rounded-lg gap-5">
+                    <figure>
+                      <img class="rounded-xl w-full" src="photos/all-photo/update-content/Earn-money-from-selling-WordPress-themes-180x103.jpg" alt="img-content">
+                    </figure>
+                    <div class="flex flex-col items-center gap-2">
+                        <h2 class="h-full"> زبان برنامه نویسی ورپرس چیست؟ + نقشه راه </h2>
+                        <div class="flex items-center h-full gap-2">
+                          <span class="sharif-calendar-small text-gray-300"></span>
+                          <span class="text-gray-300"> آخرین به روزرسانی: شهریور 23،1402 </span>
+                        </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-10 md:my-36">
+      <div class="bg-best-product-img flex justify-center">
+        <div class="container">
+          <div class="flex flex-row justify-between">
+            <div class="flex w-full flex-col md:flex-row justify-between items-center">
+              <div class="flex flex-col gap-5 md:flex-row justify-between items-center mt-5 2xl:mt-5">
+                <div class="flex flex-row items-center gap-4">
+                  <span class="bg-blue-icon rounded-full flex justify-center items-center">
+                    <span class="sharif-book text-white py-3 px-2"></span>
+                  </span>
+                  <div class="flex flex-col gap-2">
+                    <h1 class="text-xl text-black font-bold"> بهترین دوره <span class="text-lime-600 font-black"> وب یار </span></h1>
+                    <span class="bg-green-web p-2 text-white rounded-tl-lg rounded-bl-lg rounded-br-lg"> از دیدگان وب سایت </span>
+                  </div>
+                </div>
+              </div>
+              <button class="border mt-5 transition-all duration-600 bg-white shadow-sm text-green-web rounded-full px-4 py-2 hover:shadow-xl"><a href="#"> توضیحات بیشتر دوره ... </a></button>  
+            </div>
+          </div>
+          <div class="w-full flex justify-center mt-8">
+            <div class="bg-white shadow-xl rounded-lg p-4">
+              <div class="flex flex-row gap-4 items-center">
+                <div class="w-[50%]">
+                  <div class="flex flex-col gap-5">
+                    <h2 class="text-xl font-bold"> آموزش طراحی قالب وردپرس مقدماتی تا حرفه ای </h2>
+                    <p class="leading-8">
+                      بنظرتون متخصص وردپرس کیه؟ کسی که طراحی سایت رو هم بدون کدنویسی بلده هم با کدنویسی بلده! اگر شما به این معنا متخصص وردپرس بشید هم فرصت های شغلی بیشتری براتون فراهم میشه هم ظرفیت درآمدزایی تون بالاتر میره. پس سریع تر اقدام کن!
+                    </p>
+                    <div class="flex flex-row items-center justify-around">
+                      <div class="flex flex-col">
+                        <div class="rounded-full flex justify-center items-center">
+                          <span class="bg-gray-icon p-2 rounded-full flex items-center justify-center">
+                            <span class="sharif-mortar-board text-white"></span>
+                          </span>
+                        </div>
+                        <h3> رضا حیدری </h3>
+                        <p class="text-gray-300"> مدرس دوره </p>
+                      </div>
+                      <div class="flex flex-col">
+                        <div class="rounded-full flex justify-center items-center">
+                          <span class="bg-gray-icon p-2 rounded-full flex items-center justify-center">
+                            <span class="sharif-play-circle text-white"></span>
+                          </span>
+                        </div>
+                        <h3> رضا حیدری </h3>
+                        <p class="text-gray-300"> مدرس دوره </p>
+                      </div>
+                      <div class="flex flex-col">
+                        <div class="rounded-full flex justify-center items-center">
+                          <span class="bg-gray-icon p-2 rounded-full flex items-center justify-center">
+                            <span class="sharif-user text-white"></span>
+                          </span>
+                        </div>
+                        <h3> رضا حیدری </h3>
+                        <p class="text-gray-300"> مدرس دوره </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-[50%]">
+                  <figure>
+                    <img class="rounded-lg" src="photos/all-photo/wordpress-course-thumbnail.png" alt="wordpress-developer">
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+  <script src="swiper-bundle.min.js"></script>
   <script src="../src/js/Menu-show.js"></script>
+  <script src="../src/js/swiper.js"></script>
+  <script src="../src/js/swiper.js"></script>
+  <script>
+  </script>
 </html>

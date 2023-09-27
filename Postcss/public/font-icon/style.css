@@ -69,6 +69,14 @@
   font-size:25px;
   content: "\e905";
 }
+.sharif-play-circle-post:before {
+  font-size:72px;
+  content: "\e905";
+}
+.sharif-play-circle-postlarge:before {
+  font-size:100px;
+  content: "\e905";
+}
 .sharif-right-circle:before {
   font-size:25px;
   content: "\e906";
@@ -121,6 +129,12 @@
   font-size:25px;
   content: "\e91a";
 }
+
+.sharif-comment-small:before{
+  font-size:15px;
+  content: "\e91a";
+}
+
 .sharif-desktop:before {
   font-size:25px;
   content: "\e91b";
@@ -179,6 +193,10 @@
 }
 .sharif-calendar:before {
   font-size:25px;
+  content: "\e953";
+}
+.sharif-calendar-small:before{
+  font-size:15px;
   content: "\e953";
 }
 .sharif-display:before {
